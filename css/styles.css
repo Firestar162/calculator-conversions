@@ -1,0 +1,212 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* Heading Styles */
+.main-header {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 50px;
+}
+
+.section-header {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 0 5% 0;
+}
+
+/* Section Styles */
+
+.coloured-section {
+  background-color: #42855B;
+  color: white;
+}
+
+.white-section {
+  background-color: #ffffff;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding-bottom: 4rem;
+}
+
+.navbar-brand {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Title Section Styles */
+
+#title {
+  overflow: hidden;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+/* Order Button Styles */
+.order-button {
+  margin: 5% 3% 5% 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+/* iPhone Image Style */
+#calc {
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+  margin-left: 7px;
+  padding-bottom: 10%;
+  position: absolute;
+}
+
+/* Features Section Styles */
+.feature-container {
+  padding: 12% 10%;
+}
+
+.feature-col {
+  padding: 10px 4%
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem
+}
+
+#feature-icon {
+  padding: 20px 0;
+  color: #42855B;
+  transition: color .5s;
+}
+
+#feature-icon:hover {
+  color: #FF0032;
+}
+
+#feature-text {
+  color: #8f8f8f;
+}
+
+/* Testimonials Section Styles */
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 0 5% 0;
+}
+
+.carousel-item {
+  padding: 10% 10%;
+}
+
+.carousel-indicators {
+  padding-bottom: 5%
+}
+
+/* Press Section Styles */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section Styles */
+#pricing {
+  padding: 5% 100px;
+}
+
+.pricing-header {
+  padding-bottom: 20px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.plan-name {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.final-point-short {
+  margin-bottom: 56px;
+}
+
+.price-number {
+  padding: 0;
+  font-size: 4rem;
+}
+
+/* Call To Action Section Styles */
+#cta {
+  padding: 15% 15%;
+}
+
+.btn-outline-light {
+  margin-top: 40px;
+  padding: 1% 5%;
+}
+
+/* Footer Section Styles */
+#footer {
+  padding: 3% 7%;
+}
+
+#social-media {
+  margin: 0 10px 30px;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+  #calc {
+    -webkit-transform: rotate(0.25deg);
+    -moz-transform: rotate(0.25deg);
+    -ms-transform: rotate(0.25deg);
+    -o-transform: rotate(0.25deg);
+    transform: rotate(0.25deg);
+    margin: 0;
+    position: static;
+    padding-bottom: 0;
+  }
+
+  #first-bit {
+    text-align: center;
+  }
+
+  .order-button {
+    margin-bottom: 50px;
+  }
+}
